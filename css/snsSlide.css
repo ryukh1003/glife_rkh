@@ -1,0 +1,21 @@
+.snsList {
+  background-color: var(--color-sb);
+}
+.snsSlide {
+  border: 1px solid red;
+  width: 60%;
+}
+.snsSlide img {
+  width: 100%;
+}
+
+.snsList .moreCurcle {
+  right: auto;
+  left: 0;
+  top: 50%;
+}
+
+.snsList .snsSlide {
+  margin-right: 0;
+  margin-left: auto;
+}

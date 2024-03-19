@@ -1,0 +1,52 @@
+.ourCenter {
+  /* border: 1px solid red; */
+}
+
+.ourCenter::before {
+  width: 200px;
+  height: 200px;
+  background-image: url("../img/main-bg-l.svg");
+  background-repeat: no-repeat;
+  /* top: -50px; */
+  left: 30px;
+  /* animation-name: leftRight;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate; */
+  animation: leftRight 5s 1s linear infinite alternate;
+  opacity: 0.3;
+}
+
+@keyframes topDown {
+  0% {
+    top: -50px;
+    left: 30px;
+  }
+  100% {
+    top: 120px;
+    left: 30px;
+  }
+}
+
+@keyframes leftRight {
+  0% {
+    top: -250px;
+    left: -100px;
+  }
+  100% {
+    top: -250px;
+    left: 300px;
+  }
+}
+
+.ourCenter h2 {
+  padding-bottom: 30%;
+}
+.ourCenter img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-80%);
+  right: 150px;
+  width: 20%;
+}
